@@ -17,7 +17,7 @@
 | Project | Why it stands out | Links |
 | --- | --- | --- |
 | [`grift`](https://github.com/gold-silver-copper/grift) | A `no_std`, `no_alloc`, `no_unsafe` Lisp for bare-metal devices with first-class operatives and first-class mutable environments. | [site](https://grift.rs) |
-| [`CuTTY`](https://github.com/gold-silver-copper/CuTTY) | World's fastest™ terminal emulator. | [crate](https://crates.io/crates/cutty) |
+| [`CuTTY`](https://github.com/gold-silver-copper/CuTTY) | World's fastest™ terminal emulator. A `wgpu` fork of `alacritty` | [crate](https://crates.io/crates/cutty) |
 | [`english`](https://github.com/gold-silver-copper/english) | World's fastest™ English inflector, decliner, and conjugator. | - |
 | [`soft_ratatui`](https://github.com/gold-silver-copper/soft_ratatui) | A software renderer for Ratatui, used in [`egui_ratatui`](https://github.com/gold-silver-copper/egui_ratatui) and [`bevy_ratatui`](https://github.com/ratatui/bevy_ratatui). | - |
 
