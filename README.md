@@ -16,13 +16,13 @@
   <a href="https://github.com/gold-silver-copper?tab=repositories">All repositories</a>
 </p>
 
-I mostly build in Rust, usually somewhere in the overlap between terminal UI, software rendering, language tooling, and embedded-friendly interpreters.
+I love Rust, LISP, the terminal, roguelikes, computational linguistics, AI, and cheese.
 
 ## Showcase
 
 | Project | Why it stands out | Links |
 | --- | --- | --- |
-| [`grift`](https://github.com/gold-silver-copper/grift) | A `no_std`, `no_alloc`, `no_unsafe` Lisp for bare-metal devices with first-class operatives, first-class environments, and tail-call optimization. | [site](https://grift.rs) |
+| [`grift`](https://github.com/gold-silver-copper/grift) | A `no_std`, `no_alloc`, `no_unsafe` Lisp for bare-metal devices with first-class operatives and first-class mutable environments. | [site](https://grift.rs) |
 | [`CuTTY`](https://github.com/gold-silver-copper/CuTTY) | World's fastest™ terminal emulator. | [crate](https://crates.io/crates/cutty) |
 | [`english`](https://github.com/gold-silver-copper/english) | World's fastest™ English inflector, decliner, and conjugator. | - |
 | [`soft_ratatui`](https://github.com/gold-silver-copper/soft_ratatui) | A software renderer for Ratatui, used in [`egui_ratatui`](https://github.com/gold-silver-copper/egui_ratatui) and [`bevy_ratatui`](https://github.com/ratatui/bevy_ratatui). | - |
