@@ -36,11 +36,6 @@ I love Rust, LISP, the terminal, roguelikes, computational linguistics, AI, and 
 - [`ruthenian`](https://github.com/gold-silver-copper/ruthenian): Ruthenian language and NLP experiments.
 - [`to_fraktur`](https://github.com/gold-silver-copper/to_fraktur): a tiny zero-dependency Rust library that converts ASCII text into Fraktur Unicode.
 
-## Runtime and Language Design
-
-- [`grift`](https://github.com/gold-silver-copper/grift): a `no_std`, `no_alloc`, `no_unsafe` Lisp for bare-metal devices with first-class operatives, first-class environments, and tail-call optimization.
-- [`grift.rs`](https://grift.rs): the project site with examples and documentation.
-
 ## What You Will Find Here
 
 - Rust-first projects with a bias toward performance, portability, and unusual interfaces.
