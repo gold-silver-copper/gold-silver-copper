@@ -18,30 +18,35 @@
 
 I mostly build in Rust, usually somewhere in the overlap between terminal UI, software rendering, procedural text generation, embedded-friendly interpreters, and game-adjacent experiments.
 
-## Featured Projects
+## Ratatui and Terminal Rendering
 
-| Project | What it does | Links |
-| --- | --- | --- |
-| [`grift`](https://github.com/gold-silver-copper/grift) | A `no_std`, `no_alloc`, `no_unsafe` Lisp for bare-metal devices with first-class operatives, first-class environments, and tail-call optimization. | [repo](https://github.com/gold-silver-copper/grift) · [site](https://grift.rs) |
-| [`egui_ratatui`](https://github.com/gold-silver-copper/egui_ratatui) | Runs full Ratatui interfaces inside `egui`, which makes terminal-style apps work in native GUIs or in the browser through WASM. | [repo](https://github.com/gold-silver-copper/egui_ratatui) · [demo](https://gold-silver-copper.github.io) |
-| [`soft_ratatui`](https://github.com/gold-silver-copper/soft_ratatui) | A fast software renderer for Ratatui with no GPU requirement, multiple font backends, and portable pixel output. | [repo](https://github.com/gold-silver-copper/soft_ratatui) |
-| [`english`](https://github.com/gold-silver-copper/english) | A compact, fast English inflection library for procedural text generation, backed by heavily processed Wiktionary data. | [repo](https://github.com/gold-silver-copper/english) |
-| [`botanical-latin`](https://github.com/gold-silver-copper/botanical-latin) | A decliner / conjugator / inflector for classical and botanical Latin with dictionary-backed inflection and fallback stem guessing. | [repo](https://github.com/gold-silver-copper/botanical-latin) |
-| [`to_fraktur`](https://github.com/gold-silver-copper/to_fraktur) | A tiny zero-dependency Rust library that converts ASCII text into Fraktur Unicode. | [repo](https://github.com/gold-silver-copper/to_fraktur) |
-
-## More Work
-
+- [`egui_ratatui`](https://github.com/gold-silver-copper/egui_ratatui): runs full Ratatui interfaces inside `egui`, so terminal-style apps can ship as native GUI apps or WASM browser apps.
+- [`soft_ratatui`](https://github.com/gold-silver-copper/soft_ratatui): a fast software renderer for Ratatui with no GPU requirement, multiple font backends, and portable pixel output.
 - [`bevy_ratatui`](https://github.com/ratatui/bevy_ratatui): upstream Ratatui + Bevy ecosystem work.
-- [`gold-silver-copper.github.io`](https://github.com/gold-silver-copper/gold-silver-copper.github.io): live browser demos for terminal UI experiments.
 - [`bracket_ratatui`](https://github.com/gold-silver-copper/bracket_ratatui): `bracket-lib` meets `ratatui`.
-- [`Textual-Multiplayer-Roguelike`](https://github.com/gold-silver-copper/Textual-Multiplayer-Roguelike): a multiplayer roguelike experiment built with Textual TUI and Socket.IO.
-- [`chinese`](https://github.com/gold-silver-copper/chinese), [`interslavic-rs`](https://github.com/gold-silver-copper/interslavic-rs), [`ruthenian`](https://github.com/gold-silver-copper/ruthenian): language and NLP side projects.
-- [`octopus`](https://github.com/gold-silver-copper/octopus), [`mud`](https://github.com/gold-silver-copper/mud), [`fps`](https://github.com/gold-silver-copper/fps), [`graphgame`](https://github.com/gold-silver-copper/graphgame): game and interface experiments.
+- [`gold-silver-copper.github.io`](https://github.com/gold-silver-copper/gold-silver-copper.github.io): live browser demos for terminal UI experiments.
 
-<details>
-<summary>What you will find here</summary>
+## NLP and Language Tooling
+
+- [`english`](https://github.com/gold-silver-copper/english): a compact, fast English inflection library for procedural text generation.
+- [`botanical-latin`](https://github.com/gold-silver-copper/botanical-latin): a decliner / conjugator / inflector for classical and botanical Latin.
+- [`chinese`](https://github.com/gold-silver-copper/chinese): Chinese language tooling and experiments.
+- [`interslavic-rs`](https://github.com/gold-silver-copper/interslavic-rs): Rust work around Interslavic language tooling.
+- [`ruthenian`](https://github.com/gold-silver-copper/ruthenian): Ruthenian language and NLP experiments.
+- [`to_fraktur`](https://github.com/gold-silver-copper/to_fraktur): a tiny zero-dependency Rust library that converts ASCII text into Fraktur Unicode.
+
+## Runtime and Language Design
+
+- [`grift`](https://github.com/gold-silver-copper/grift): a `no_std`, `no_alloc`, `no_unsafe` Lisp for bare-metal devices with first-class operatives, first-class environments, and tail-call optimization.
+- [`grift.rs`](https://grift.rs): the project site with examples and documentation.
+
+## Games and Interactive Experiments
+
+- [`Textual-Multiplayer-Roguelike`](https://github.com/gold-silver-copper/Textual-Multiplayer-Roguelike): a multiplayer roguelike experiment built with Textual TUI and Socket.IO.
+- [`octopus`](https://github.com/gold-silver-copper/octopus), [`mud`](https://github.com/gold-silver-copper/mud), [`fps`](https://github.com/gold-silver-copper/fps), [`graphgame`](https://github.com/gold-silver-copper/graphgame): game, simulation, and interface experiments.
+
+## What You Will Find Here
 
 - Rust-first projects with a bias toward performance, portability, and unusual interfaces.
 - Terminal UI work that escapes the terminal and shows up in browsers, game engines, and software renderers.
 - Language tooling for English, Latin, Slavic languages, and procedural text generation.
-</details>
