@@ -1,11 +1,5 @@
-# gold_silver_copper
-
 <p align="center">
-  Rust developer building terminal systems, language tooling, renderers, and unusual runtime experiments.
-</p>
-
-<p align="center">
-  <code>Rust</code> • <code>ratatui</code> • <code>Bevy</code> • <code>WASM</code> • <code>no_std</code> • <code>NLP</code>
+  I love Rust, LISP, the terminal, roguelikes, computational linguistics, AI, and cheese.
 </p>
 
 <p align="center">
@@ -16,7 +10,7 @@
   <a href="https://github.com/gold-silver-copper?tab=repositories">All repositories</a>
 </p>
 
-I love Rust, LISP, the terminal, roguelikes, computational linguistics, AI, and cheese.
+
 
 ## Showcase
 
