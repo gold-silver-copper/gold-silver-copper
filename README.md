@@ -22,18 +22,10 @@ I mostly build in Rust, usually somewhere in the overlap between terminal UI, so
 
 | Project | Why it stands out | Links |
 | --- | --- | --- |
-| [`grift`](https://github.com/gold-silver-copper/grift) | A `no_std`, `no_alloc`, `no_unsafe` Lisp for bare-metal devices with first-class operatives, first-class environments, and tail-call optimization. | [repo](https://github.com/gold-silver-copper/grift) · [site](https://grift.rs) |
-| [`cutty`](https://github.com/gold-silver-copper/CuTTY) | A fast, cross-platform GPU terminal emulator. | [repo](https://github.com/gold-silver-copper/CuTTY) · [docs](https://docs.rs/cutty) · [crate](https://crates.io/crates/cutty) |
-| [`english`](https://github.com/gold-silver-copper/english) | English inflection, declension, and conjugation tooling in Rust. | [repo](https://github.com/gold-silver-copper/english) |
-| [`soft_ratatui`](https://github.com/gold-silver-copper/soft_ratatui) | A software renderer for Ratatui. | [repo](https://github.com/gold-silver-copper/soft_ratatui) |
-
-## Terminal UI and Rendering
-
-- [`cutty`](https://github.com/gold-silver-copper/CuTTY): a fast, cross-platform GPU terminal emulator.
-- [`egui_ratatui`](https://github.com/gold-silver-copper/egui_ratatui): runs full Ratatui interfaces inside `egui`, so terminal-style apps can ship as native GUI apps or WASM browser apps.
-- [`soft_ratatui`](https://github.com/gold-silver-copper/soft_ratatui): a software renderer for Ratatui.
-- [`bevy_ratatui`](https://github.com/ratatui/bevy_ratatui): upstream Ratatui + Bevy ecosystem work.
-- [`bracket_ratatui`](https://github.com/gold-silver-copper/bracket_ratatui): `bracket-lib` meets `ratatui`.
+| [`grift`](https://github.com/gold-silver-copper/grift) | A `no_std`, `no_alloc`, `no_unsafe` Lisp for bare-metal devices with first-class operatives, first-class environments, and tail-call optimization. | [site](https://grift.rs) |
+| [`CuTTY`](https://github.com/gold-silver-copper/CuTTY) | World's fastest™ terminal emulator. | [crate](https://crates.io/crates/cutty) |
+| [`english`](https://github.com/gold-silver-copper/english) | World's fastest™ English inflector, decliner, and conjugator. | - |
+| [`soft_ratatui`](https://github.com/gold-silver-copper/soft_ratatui) | A software renderer for Ratatui, used in [`egui_ratatui`](https://github.com/gold-silver-copper/egui_ratatui) and [`bevy_ratatui`](https://github.com/ratatui/bevy_ratatui). | - |
 
 ## NLP and Language Tooling
 
@@ -52,5 +44,5 @@ I mostly build in Rust, usually somewhere in the overlap between terminal UI, so
 ## What You Will Find Here
 
 - Rust-first projects with a bias toward performance, portability, and unusual interfaces.
-- Terminal UI work spanning emulators, Ratatui backends, and software renderers.
+- Terminal systems, software rendering, and unusual runtime work.
 - Language tooling for English, Latin, Slavic languages, and procedural text generation.
