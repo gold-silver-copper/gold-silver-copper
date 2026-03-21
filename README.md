@@ -32,6 +32,6 @@
 
 ## What You Will Find Here
 
-- Rust-first projects with a bias toward performance, portability, and unusual interfaces.
-- Terminal systems, software rendering, and unusual runtime work.
-- Language tooling for English, Latin, Slavic languages, and procedural text generation.
+- Blazing fast libraries
+- Terminal aesthetics
+- The forefront and bleeding edge of computational linguistics and natural language processing.
