@@ -14,7 +14,7 @@
 
 ## Showcase
 
-| Project | Why it stands out | Links |
+| Project | What is it? | Links |
 | --- | --- | --- |
 | [`grift`](https://github.com/gold-silver-copper/grift) | A `no_std`, `no_alloc`, `no_unsafe` Lisp for bare-metal devices with first-class operatives and first-class mutable environments. | [site](https://grift.rs) |
 | [`CuTTY`](https://github.com/gold-silver-copper/CuTTY) | World's fastest™ terminal emulator. A `wgpu` fork of `alacritty` | [crate](https://crates.io/crates/cutty) |
