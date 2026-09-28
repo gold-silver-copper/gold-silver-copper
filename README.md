@@ -24,9 +24,10 @@
 
 ## Ratatui
 
-- [`soft_ratatui`](https://github.com/gold-silver-copper/soft_ratatui): a software renderer for Ratatui, used in [`egui_ratatui`](https://github.com/gold-silver-copper/egui_ratatui) and [`bevy_ratatui`](https://github.com/ratatui/bevy_ratatui).
-- [`egui_ratatui`](https://github.com/gold-silver-copper/egui_ratatui): a Ratatui backend that is also an egui widget. Run TUIs in desktop GUIs or in the browser with WASM.
 - [`bevy_terminal`](https://github.com/gold-silver-copper/bevy_terminal): a Ratatui backend rendered entirely with Bevy UI and Bevy text.
+- [`bevy_ratatui`](https://github.com/ratatui/bevy_ratatui): a Rust crate for using Ratatui in a Bevy application.
+- [`soft_ratatui`](https://github.com/gold-silver-copper/soft_ratatui): a software renderer for Ratatui.
+- [`egui_ratatui`](https://github.com/gold-silver-copper/egui_ratatui): a Ratatui backend that is also an egui widget. Run TUIs in desktop GUIs or in the browser with WASM.
 - [`rotating_terminal`](https://github.com/gold-silver-copper/rotating_terminal): a 3D vintage terminal in Bevy whose screen is a live Ratatui UI.
 - [`ratatui-widgettable`](https://github.com/gold-silver-copper/ratatui-widgettable): a Ratatui table whose cells can contain any widget.
 
