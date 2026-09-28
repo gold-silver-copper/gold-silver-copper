@@ -20,13 +20,24 @@
 | [`CuTTY`](https://github.com/gold-silver-copper/CuTTY) | World's fastest™ terminal emulator. A `wgpu` fork of `alacritty` | [crate](https://crates.io/crates/cutty) |
 | [`english`](https://github.com/gold-silver-copper/english) | World's fastest™ English inflector, decliner, and conjugator. | - |
 | [`soft_ratatui`](https://github.com/gold-silver-copper/soft_ratatui) | A software renderer for Ratatui, used in [`egui_ratatui`](https://github.com/gold-silver-copper/egui_ratatui) and [`bevy_ratatui`](https://github.com/ratatui/bevy_ratatui). | - |
+| [`egui_ratatui`](https://github.com/gold-silver-copper/egui_ratatui) | A Ratatui backend that is also an egui widget. Run TUIs in desktop GUIs or in the browser with WASM. | [crate](https://crates.io/crates/egui_ratatui) |
+| [`koh`](https://github.com/gold-silver-copper/koh) | A peer-to-peer remote shell inspired by `mosh`, built on `iroh`. No SSH, no open ports, no accounts. | [crate](https://crates.io/crates/koh) |
+| [`fux`](https://github.com/gold-silver-copper/fux) | An agent native terminal multiplexer with a mosh-grade peer-to-peer attach path. | [crate](https://crates.io/crates/fux) |
+
+## Terminal and Ratatui
+
+- [`bevy_terminal`](https://github.com/gold-silver-copper/bevy_terminal): a Ratatui backend rendered entirely with Bevy UI and Bevy text.
+- [`rotating_terminal`](https://github.com/gold-silver-copper/rotating_terminal): a 3D vintage terminal in Bevy whose screen is a live Ratatui UI.
+- [`ratatui-widgettable`](https://github.com/gold-silver-copper/ratatui-widgettable): a Ratatui table whose cells can contain any widget.
 
 ## NLP and Language Tooling
 
 - [`english`](https://github.com/gold-silver-copper/english): an English inflector, decliner, and conjugator.
 - [`botanical-latin`](https://github.com/gold-silver-copper/botanical-latin): a decliner / conjugator / inflector for classical and botanical Latin.
 - [`chinese`](https://github.com/gold-silver-copper/chinese): Chinese language tooling and experiments.
-- [`interslavic-rs`](https://github.com/gold-silver-copper/interslavic-rs): Rust work around Interslavic language tooling.
+- [`interslavic`](https://github.com/gold-silver-copper/interslavic): Rust work around Interslavic language tooling.
+- [`church-slavonic`](https://github.com/gold-silver-copper/church-slavonic): fast, offline Old Church Slavonic inflection and analysis.
+- [`sound-law`](https://github.com/gold-silver-copper/sound-law): a declarative, capture-aware sound-change engine.
 - [`ruthenian`](https://github.com/gold-silver-copper/ruthenian): Ruthenian language and NLP experiments.
 - [`to_fraktur`](https://github.com/gold-silver-copper/to_fraktur): a tiny zero-dependency Rust library that converts ASCII text into Fraktur Unicode.
 
