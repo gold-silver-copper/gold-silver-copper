@@ -19,13 +19,13 @@
 | [`grift`](https://github.com/gold-silver-copper/grift) | A `no_std`, `no_alloc`, `no_unsafe` Lisp for bare-metal devices with first-class operatives and first-class mutable environments. | [site](https://grift.rs) |
 | [`CuTTY`](https://github.com/gold-silver-copper/CuTTY) | World's fastest™ terminal emulator. A `wgpu` fork of `alacritty` | [crate](https://crates.io/crates/cutty) |
 | [`english`](https://github.com/gold-silver-copper/english) | World's fastest™ English inflector, decliner, and conjugator. | - |
-| [`soft_ratatui`](https://github.com/gold-silver-copper/soft_ratatui) | A software renderer for Ratatui, used in [`egui_ratatui`](https://github.com/gold-silver-copper/egui_ratatui) and [`bevy_ratatui`](https://github.com/ratatui/bevy_ratatui). | - |
-| [`egui_ratatui`](https://github.com/gold-silver-copper/egui_ratatui) | A Ratatui backend that is also an egui widget. Run TUIs in desktop GUIs or in the browser with WASM. | [crate](https://crates.io/crates/egui_ratatui) |
 | [`koh`](https://github.com/gold-silver-copper/koh) | A peer-to-peer remote shell inspired by `mosh`, built on `iroh`. No SSH, no open ports, no accounts. | [crate](https://crates.io/crates/koh) |
 | [`fux`](https://github.com/gold-silver-copper/fux) | An agent native terminal multiplexer with a mosh-grade peer-to-peer attach path. | [crate](https://crates.io/crates/fux) |
 
-## Terminal and Ratatui
+## Ratatui
 
+- [`soft_ratatui`](https://github.com/gold-silver-copper/soft_ratatui): a software renderer for Ratatui, used in [`egui_ratatui`](https://github.com/gold-silver-copper/egui_ratatui) and [`bevy_ratatui`](https://github.com/ratatui/bevy_ratatui).
+- [`egui_ratatui`](https://github.com/gold-silver-copper/egui_ratatui): a Ratatui backend that is also an egui widget. Run TUIs in desktop GUIs or in the browser with WASM.
 - [`bevy_terminal`](https://github.com/gold-silver-copper/bevy_terminal): a Ratatui backend rendered entirely with Bevy UI and Bevy text.
 - [`rotating_terminal`](https://github.com/gold-silver-copper/rotating_terminal): a 3D vintage terminal in Bevy whose screen is a live Ratatui UI.
 - [`ratatui-widgettable`](https://github.com/gold-silver-copper/ratatui-widgettable): a Ratatui table whose cells can contain any widget.
