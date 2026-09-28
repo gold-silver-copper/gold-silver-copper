@@ -20,7 +20,7 @@
 | [`CuTTY`](https://github.com/gold-silver-copper/CuTTY) | World's fastest™ terminal emulator. A `wgpu` fork of `alacritty` | [crate](https://crates.io/crates/cutty) |
 | [`english`](https://github.com/gold-silver-copper/english) | World's fastest™ English inflector, decliner, and conjugator. | - |
 | [`koh`](https://github.com/gold-silver-copper/koh) | A peer-to-peer remote shell inspired by `mosh`, built on `iroh`. No SSH, no open ports, no accounts. | [crate](https://crates.io/crates/koh) |
-| [`fux`](https://github.com/gold-silver-copper/fux) | An ultra minimal terminal multiplexer with a mosh-grade peer-to-peer attach path. | [crate](https://crates.io/crates/fux) |
+| [`fux`](https://github.com/gold-silver-copper/fux) | An ultra minimal terminal multiplexer. | [crate](https://crates.io/crates/fux) |
 
 ## Ratatui
 
